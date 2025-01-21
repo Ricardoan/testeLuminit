@@ -1,0 +1,45 @@
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.deps.json
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.AssemblyReference.cache
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfoInputs.cache
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfo.cs
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CoreCompileInputs.cache
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CopyComplete
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\refint\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Projeto 2024\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\ref\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.deps.json
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.AssemblyReference.cache
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfoInputs.cache
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfo.cs
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CoreCompileInputs.cache
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CopyComplete
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\refint\MsComercio.Repository.dll
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Projeto 2024\branchRnComercioV1\rnComercioApi\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\ref\MsComercio.Repository.dll
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.deps.json
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.AssemblyReference.cache
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfoInputs.cache
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfo.cs
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CoreCompileInputs.cache
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComerc.2425AA7E.Up2Date
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\refint\MsComercio.Repository.dll
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\ref\MsComercio.Repository.dll

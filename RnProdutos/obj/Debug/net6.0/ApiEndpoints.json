@@ -1,0 +1,87 @@
+[
+  {
+    "ContainingType": "Api.Controllers.ProdutoController",
+    "Method": "GetMelhorRota",
+    "RelativePath": "api/Produto/GetMelhorRota",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "destino",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MsComercio.Domain.Model.ResponseMaximumValidity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MsComercio.Business.PreRota.Notification, MsComercio.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api.Controllers.ProdutoController",
+    "Method": "InserirRotaNova",
+    "RelativePath": "api/Produto/InserirNovaRota",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origem",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "destino",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "custo",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MsComercio.Domain.Model.ResponseMaximumValidity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MsComercio.Business.PreRota.Notification, MsComercio.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 204
+      }
+    ]
+  }
+]
