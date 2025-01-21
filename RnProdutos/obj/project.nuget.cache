@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GH7ad323Zgw=",
+  "dgSpecHash": "CpJlfVbpJsc=",
   "success": true,
-  "projectFilePath": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\RnProdutos\\Api.csproj",
+  "projectFilePath": "C:\\DevNovo\\Teste\\teste 21012025\\RnProdutos\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JHEJalT5O1A=",
+  "dgSpecHash": "M10h9ZSMJpI=",
   "success": true,
-  "projectFilePath": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Repository\\MsComercio.Repository.csproj",
+  "projectFilePath": "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Repository\\MsComercio.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",

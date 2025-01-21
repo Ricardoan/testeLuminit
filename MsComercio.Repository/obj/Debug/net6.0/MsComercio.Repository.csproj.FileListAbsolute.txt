@@ -43,3 +43,19 @@ C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\refint\MsComercio.Repository.dll
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.pdb
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Repository\obj\Debug\net6.0\ref\MsComercio.Repository.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.deps.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.AssemblyReference.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfoInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.AssemblyInfo.cs
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.csproj.CoreCompileInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.sourcelink.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComerc.2425AA7E.Up2Date
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\refint\MsComercio.Repository.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\MsComercio.Repository.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Repository\obj\Debug\net6.0\ref\MsComercio.Repository.dll

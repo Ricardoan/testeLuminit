@@ -34,3 +34,16 @@ C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Domain\obj\Debug\net6.0\MsC
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Domain\obj\Debug\net6.0\refint\MsComercio.Domain.dll
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.pdb
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Domain\obj\Debug\net6.0\ref\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\bin\Debug\net6.0\MsComercio.Domain.deps.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.csproj.AssemblyReference.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.AssemblyInfoInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.AssemblyInfo.cs
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.csproj.CoreCompileInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.sourcelink.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\refint\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Domain\obj\Debug\net6.0\ref\MsComercio.Domain.dll

@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,50 +12,67 @@ using MsComercio.Domain.Model;
 using MsComercio.Repository.RotaViagem;
 using Xunit;
 
-namespace MsComercio.Tests
+namespace MsComercio.Repository.Tests
 {
     public class PreRepositoryTests
     {
-        private readonly Mock<IConfiguration> _configurationMock;
-        private readonly Mock<ILogger<PreRepository>> _loggerMock;
-        private readonly PreRepository _preRepository;
+        private readonly Mock<ILogger<PreRepository>> _mockLogger;
+        private readonly Mock<IConfiguration> _mockConfiguration;
+        private readonly PreRepository _repository;
 
         public PreRepositoryTests()
         {
-            _configurationMock = new Mock<IConfiguration>();
-            _loggerMock = new Mock<ILogger<PreRepository>>();
+            _mockLogger = new Mock<ILogger<PreRepository>>();
+            _mockConfiguration = new Mock<IConfiguration>();
+            _mockConfiguration.Setup(c => c.GetSection("ConnectionStrings:RotaConnection").Value)
+                .Returns("YourConnectionStringHere");
 
-            
-            _configurationMock.Setup(cfg => cfg.GetSection("ConnectionStrings:RotaConnection").Value)
-                              .Returns("");
-
-            _preRepository = new PreRepository(_configurationMock.Object, _loggerMock.Object);
+            _repository = new PreRepository(_mockConfiguration.Object, _mockLogger.Object);
         }
 
         [Fact]
-        public async Task GetMelhorRota_Should_Return_Optimal_Route()
+        public async Task GetMelhorRota_ShouldReturnExpectedResult()
         {
             // Arrange
-            var origem = "A";
-            var destino = "B";
+            var mockConnection = new Mock<IDbConnection>();
             var rotas = new List<Rota>
             {
                 new Rota { RotaIni = "A", RotaProx = "B", Preco = 10 },
-                new Rota { RotaIni = "A", RotaProx = "C", Preco = 15 },
-                new Rota { RotaIni = "C", RotaProx = "B", Preco = 5 }
+                new Rota { RotaIni = "B", RotaProx = "C", Preco = 15 }
             };
-
-            // Mock da conexão 
-            var connectionMock = new Mock<SqlConnection>("");
-           // connectionMock.Setup(c => c.QueryAsync<Rota>(It.IsAny<string>())).ReturnsAsync(rotas);
+            mockConnection.Setup(c => c.QueryAsync<Rota>(It.IsAny<string>())).ReturnsAsync(rotas);
 
             // Act
-            var result = await _preRepository.GetMelhorRota(origem, destino);
+            var result = await _repository.GetMelhorRota("A", "C");
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal("A - B", result.MelhorRota);
-            Assert.Equal(10, result.Custo);
+            Assert.Equal("A - B - C", result.MelhorRota);
+            Assert.Equal(25, result.Custo);
+        }
+
+        [Fact]
+        public async Task InserirRotaNova_ShouldReturnExpectedResult()
+        {
+            // Arrange
+            var mockConnection = new Mock<IDbConnection>();
+            var ultimaRotaInserida = new List<Rota>
+            {
+                new Rota { RotaIni = "A", RotaProx = "B", Preco = 10 }
+            };
+            mockConnection.Setup(c => c.QueryAsync<Rota>(It.IsAny<string>(), It.IsAny<object>()))
+                .ReturnsAsync(ultimaRotaInserida);
+
+            // Act
+            var result = await _repository.InserirRotaNova("A", "B", 10);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("Rota inserida com sucesso!", result.Mensagem);
+            Assert.Single(result.UltimaRota);
+            Assert.Equal("A", result.UltimaRota.First().RotaIni);
+            Assert.Equal("B", result.UltimaRota.First().RotaProx);
+            Assert.Equal(10, result.UltimaRota.First().Preco);
         }
     }
 }

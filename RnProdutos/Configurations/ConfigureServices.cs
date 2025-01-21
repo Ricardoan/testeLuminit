@@ -1,6 +1,5 @@
 ﻿
 using MsComercio.Domain.Entities.PreRota;
-using MsComercio.Repository.PreApproval;
 using MsComercio.Domain.Applications;
 using MsComercio.Application;
 using MsComercio.Domain.Business;

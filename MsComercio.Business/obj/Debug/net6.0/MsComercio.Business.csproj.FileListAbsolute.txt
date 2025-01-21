@@ -49,3 +49,21 @@ C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Business\obj\Debug\net6.0\M
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Business\obj\Debug\net6.0\refint\MsComercio.Business.dll
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.pdb
 C:\DevNovo\TesteEmpresaLuminit\RnProdutos\MsComercio.Business\obj\Debug\net6.0\ref\MsComercio.Business.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Business.deps.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Business.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Business.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Aplication.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Domain.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Aplication.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\bin\Debug\net6.0\MsComercio.Domain.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.csproj.AssemblyReference.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.AssemblyInfoInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.AssemblyInfo.cs
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.csproj.CoreCompileInputs.cache
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.sourcelink.json
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComerc.D59BD328.Up2Date
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\refint\MsComercio.Business.dll
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\MsComercio.Business.pdb
+C:\DevNovo\Teste\teste 21012025\MsComercio.Business\obj\Debug\net6.0\ref\MsComercio.Business.dll

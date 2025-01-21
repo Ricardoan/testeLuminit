@@ -1196,11 +1196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Repository\\MsComercio.Repository.csproj",
+      "projectUniqueName": "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Repository\\MsComercio.Repository.csproj",
       "projectName": "MsComercio.Repository",
-      "projectPath": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Repository\\MsComercio.Repository.csproj",
+      "projectPath": "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Repository\\MsComercio.Repository.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Repository\\obj\\",
+      "outputPath": "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1222,8 +1222,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Domain\\MsComercio.Domain.csproj": {
-              "projectPath": "C:\\DevNovo\\TesteEmpresaLuminit\\RnProdutos\\MsComercio.Domain\\MsComercio.Domain.csproj"
+            "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Domain\\MsComercio.Domain.csproj": {
+              "projectPath": "C:\\DevNovo\\Teste\\teste 21012025\\MsComercio.Domain\\MsComercio.Domain.csproj"
             }
           }
         }
