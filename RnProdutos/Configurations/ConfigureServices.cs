@@ -5,6 +5,9 @@ using MsComercio.Application;
 using MsComercio.Domain.Business;
 using MsComercio.Repository.RotaViagem;
 using MsComercio.Business.PreBusiness;
+using MsComercio.Repository.RotaViagemBanco.RotaViagem;
+using System.Data;
+using System.Data.SqlClient;
 
 
 namespace Api.Configurations
@@ -20,6 +23,7 @@ namespace Api.Configurations
         public static IServiceCollection AddAdapters(this IServiceCollection services) 
         {
             services.AddTransient<IPreRepository, PreRepository>();
+            services.AddTransient<IDbConnectionWrapper, DbConnectionWrapper>(); services.AddTransient<IDbConnection>(sp => { var configuration = sp.GetRequiredService<IConfiguration>(); var connectionString = configuration.GetSection("ConnectionStrings:RotaConnection").Value; return new SqlConnection(connectionString); });
             //services.AddTransient<IInsuredAdapter, InsuredRepository>();
             return services;
 

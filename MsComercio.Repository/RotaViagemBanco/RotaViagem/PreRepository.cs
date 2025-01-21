@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using MsComercio.Domain.Entities.PreRota;
 using MsComercio.Domain.Model;
 using MsComercio.Repository.PreRota;
+using MsComercio.Repository.RotaViagemBanco.RotaViagem;
 
 //using WebService;
 
@@ -19,22 +20,20 @@ namespace MsComercio.Repository.RotaViagem
     {
         private readonly ILogger<PreRepository> _logger;
         private readonly string ConnectionString;
+        private readonly IDbConnectionWrapper _dbConnectionWrapper;
 
-        public PreRepository(IConfiguration configuration, ILogger<PreRepository> logger)
+        public PreRepository(IConfiguration configuration, ILogger<PreRepository> logger, IDbConnectionWrapper dbConnectionWrapper)
         {
             ConnectionString = configuration.GetSection("ConnectionStrings:RotaConnection").Value;
             _logger = logger;
+            _dbConnectionWrapper = dbConnectionWrapper;
         }
 
         public async Task<ResponseMaximumValidity> GetMelhorRota(string origem, string destino)
         {
             try
-            { 
-                using var connection = new SqlConnection(ConnectionString);
-                _logger.LogInformation($"Criou a conexão com a rota {origem}");
-
-                var rotas = (await connection.QueryAsync<Rota>(PreRotaQueries.GetMelhorRota)).ToList();
-
+            {
+                var rotas = (await _dbConnectionWrapper.QueryAsync<Rota>(PreRotaQueries.GetMelhorRota)).ToList();
                 var grafo = new Dictionary<string, List<Rota>>();
                 foreach (var rota in rotas)
                 {
@@ -77,19 +76,14 @@ namespace MsComercio.Repository.RotaViagem
             }
         }
 
-
         public async Task<ResponseMaximumValidity> InserirRotaNova(string origem, string destino, decimal custo)
         {
             try
             {
-                using var connection = new SqlConnection(ConnectionString);
-                _logger.LogInformation($"Criou a conexão com a rota {origem}");
-
-                // Insere a nova rota e captura a rota inserida
                 var parametros = new { Origem = origem, Destino = destino, Custo = custo };
-                var ultimaRotaInserida = (await connection.QueryAsync<Rota>(PreRotaQueries.InserirRota, parametros)).ToList();
+                var ultimaRotaInserida = (await _dbConnectionWrapper.QueryAsync<Rota>(PreRotaQueries.InserirRota, parametros)).ToList();
 
-                ResponseMaximumValidity result = new ResponseMaximumValidity
+                var result = new ResponseMaximumValidity
                 {
                     Mensagem = "Rota inserida com sucesso!",
                     UltimaRota = ultimaRotaInserida
@@ -108,7 +102,6 @@ namespace MsComercio.Repository.RotaViagem
                 };
             }
         }
-              
-
     }
+
 }
